@@ -9,14 +9,30 @@ html {
 }
 
 body {
-    background: #2B292E;
+    background-color: #1d498e;
     color: #fafafa;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+
+    text-align: center;
+}
+
+.main-header {
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.container {
+    background: #2B292E;
+    text-align: center;
+    padding: 5% 0;
+
 }
 
 span {
@@ -31,15 +47,13 @@ span {
     width: 2.4rem;
 }
 
-p {
-    font-weight: 300;
-    margin-bottom: .8rem;
+.remainGuesses {
+    margin-top: 2%;
 }
 
-.puzzle {
-    display: flex;
-    margin: 4.8rem auto;
-
+.reset {
+    margin-top: 2%;
+    display: block;
 }
 
 .button {
@@ -54,7 +68,13 @@ p {
     transition: background .3s ease, color .3s ease;
 }
 
-
 .button:hover {
     background: #5F3A87;
+}
+
+.footer {
+    padding: 2%;
+    text-align: center;
+    background-color: #1d498e;
+    font-size: 1rem;
 }

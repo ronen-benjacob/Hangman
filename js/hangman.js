@@ -36,11 +36,11 @@ class Hangman {
     get statusMessage() {
         let message = "";
         if (this.status === "playing") {
-            message = `You have ${game1.noOfAttempts} left!`;
+            message = `You have ${game1.noOfAttempts} guesses left!`;
         } else if (this.status === "finished") {
             message = "Congratualations, you WIN!!!";
         } else {
-            message = `Better luck next time :-((( The correct word was "${game1.word.join("")}"`;
+            message = `Better luck next time :-( The correct word was "${game1.word.join("")}"`;
         }
 
         return message;
